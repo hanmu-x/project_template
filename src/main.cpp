@@ -1,17 +1,16 @@
 
-#include "tool_dir_name/project.h"
-#include "tool_dir_name/config.hpp"
+#include "project.h"
+#include "config/config.hpp"
 
 #include <filesystem>
 
 int main()
 {
-
 	Config config;
 #ifndef NDEBUG
-	std::string configPath = "../../../../Config/my_config.json";
+	std::string configPath = "../../../../config/config.json";
 #else
-	std::string configPath = "./my_config.json";
+	std::string configPath = "./config/config.json";
 #endif
     if (config.read_config(configPath))
     {

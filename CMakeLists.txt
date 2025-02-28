@@ -31,8 +31,8 @@ endif ()
 
 
 # 头文件
-#include(silly_utils)
-#include_directories("silly_utils/su")
+include(all_in_one)
+include_directories("all_in_one/core")
 
 # 添加core目录下的头文件到项目
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/core)

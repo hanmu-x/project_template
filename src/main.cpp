@@ -1,5 +1,5 @@
 
-#include "project.h"
+#include "studio_macros.h"
 #include "config/config.hpp"
 
 #include <filesystem>
@@ -22,10 +22,7 @@ int main()
         return 1;
     }
 
-    std::filesystem::path data_1(DEFAULT_DATA_DIR);
-    data_1 += "/geo_db/example6.db";
 
-	tool_class tc;
 
 
 	return 0;

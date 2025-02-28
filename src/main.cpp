@@ -1,18 +1,18 @@
 
 #include "studio_macros.h"
-#include "config/config.hpp"
+#include "config/module_a_config.h"
 
-#include <filesystem>
+#include <filesystem>9
 
 int main()
 {
-	Config config;
+    module_a_config config;
 #ifndef NDEBUG
 	std::string configPath = "../../../../config/config.json";
 #else
 	std::string configPath = "./config/config.json";
 #endif
-    if (config.read_config(configPath))
+    if (module_a_config::sample().read_config(configPath))
     {
         std::cout << "Read config file succession " << std::endl;
     }

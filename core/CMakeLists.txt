@@ -15,10 +15,10 @@ endforeach()
 add_library(${PROJECT_NAME} STATIC ${SRC})
 
 
-find_package(jsoncpp CONFIG REQUIRED)
-target_link_libraries(${PROJECT_NAME} PUBLIC JsonCpp::JsonCpp)
+#find_package(jsoncpp CONFIG REQUIRED)
+#target_link_libraries(${PROJECT_NAME} PUBLIC JsonCpp::JsonCpp)
 
-find_package(unofficial-unrar CONFIG REQUIRED)
-target_link_libraries(${PROJECT_NAME} PUBLIC unofficial::unrar::unrar)
+#find_package(unofficial-unrar CONFIG REQUIRED)
+#target_link_libraries(${PROJECT_NAME} PUBLIC unofficial::unrar::unrar)
 
 target_link_libraries(${PROJECT_NAME} PUBLIC MultiTool)

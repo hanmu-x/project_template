@@ -1,6 +1,3 @@
-//
-// Created by dell on 2024/7/17.
-//
 
 #ifndef MODULE_A_CONFIG_H
 #define MODULE_A_CONFIG_H
@@ -10,7 +7,6 @@
 /// <summary>
 /// 配置模块A
 /// </summary>
-
 class module_a_config :public studio_singleton<module_a_config>
 {
 public:

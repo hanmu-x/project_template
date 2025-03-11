@@ -2,7 +2,7 @@
 #include "studio_macros.h"
 #include "config/module_a_config.h"
 
-#include <filesystem>9
+#include <filesystem>
 
 int main()
 {
@@ -21,7 +21,6 @@ int main()
         std::cout << "ERROR : Failed to read config file " << std::endl;
         return 1;
     }
-
 
 	return 0;
 }

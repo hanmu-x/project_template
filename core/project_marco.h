@@ -7,7 +7,6 @@
 
 #include <studio_macros.h>
 
-// 添加其他需要的silly_utils头文件
 #include <log/studio_log.h>
 
 #include <singleton/studio_singleton.h>

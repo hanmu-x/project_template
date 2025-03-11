@@ -17,5 +17,4 @@ public:
 };
 
 
-
 #endif //MODULE_A_CONFIG_H

@@ -8,7 +8,7 @@ endif ()
 
 set(SOURCE_DIR "${SU_DIRECTORY}")
 
-set(AIO_TAG main)  # 确保这里设置为你想使用的分支名或标签
+set(AIO_TAG master)  # 确保这里设置为你想使用的分支名或标签
 
 set(ALL_IN_ONE_GIT_URL "https://gitee.com/master-turtle/all_in_one.git")
 

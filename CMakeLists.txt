@@ -31,6 +31,7 @@ endif ()
 
 
 # 头文件
+include(ThirdSupport)
 include(all_in_one)
 include_directories("all_in_one/core")
 
